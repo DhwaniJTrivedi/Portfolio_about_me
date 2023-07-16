@@ -1,0 +1,115 @@
+body{
+  font-family: 'Big Shoulders Display', cursive;
+font-family: 'Big Shoulders Text', cursive;
+font-family: 'Open Sans', sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  .logo img {
+    height: 50px;
+    width: auto;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #B00000;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #F3C4C4;
+  }
+  
+  nav ul li a:hover {
+    background-color: #000000;
+    color: #fff;
+  }
+.main_class{
+  border: 1px solid gray;
+}
+  /* .maincontent{
+    width: auto;
+    height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  } */
+  .image_description{
+    padding: 20px;
+    width: auto;
+    height: 50%;
+    background-color: #F3C4C4;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  .description{
+    width: auto;
+    padding: 50px;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .image_class{
+    align-items: center;
+    justify-content: center;
+  }
+ 
+.main_detail{
+  background-color: #F3C4C4;
+  display: flex;
+  width: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.expertise{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #B00000;
+}
+.expertise_description{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  .footer {
+    text-align: center;
+    position: relative;
+  }
+  
+  hr {
+    margin-top: 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .email {
+    margin-right: 20px;
+  }
+  
+  .linkedin-icon {
+    height: 24px;
+    width: auto;
+  }
